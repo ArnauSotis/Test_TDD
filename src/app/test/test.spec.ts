@@ -18,6 +18,10 @@ describe('test43', () => {
         const result = suma(3,3);
         expect(result).toBe(6);
     })
+    it('Debe ser 0', () => {
+        const result = suma(0,0);
+        expect(result).toBe(0);
+    })
 })
 
 import { multi } from "./test";
