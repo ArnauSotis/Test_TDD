@@ -1,15 +1,19 @@
 import { test1 } from "./test";
 
-describe('test43', () => { 
+describe('Si negativo, devuelve 0, si es positivo devuelve n+1', () => { 
     it('Debe ser 0', () => {
         const result = test1(-1);
         expect(result).toBe(0);
+    })
+    it('Debe ser 10', () => {
+        const result = test1(9);
+        expect(result).toBe(10);
     })
 })
 
 import { suma } from "./test";
 
-describe('test43', () => { 
+describe('Se realiza una suma', () => { 
     it('Debe ser 5', () => {
         const result = suma(2,3);
         expect(result).toBe(5);
@@ -27,7 +31,7 @@ describe('test43', () => {
 import { multi } from "./test";
 
 describe('test43344334', () => { 
-    it('should return 0 if input is negative', () => {
+    it('Se multiplican los números', () => {
         const result = multi(2,3);
         expect(result).toBe(6);
     })
