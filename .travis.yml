@@ -33,6 +33,5 @@ script:
   - ng build --prod --aot
 
 
-  - npm run coveralls
-
+  - ng test
   
