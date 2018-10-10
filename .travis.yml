@@ -34,4 +34,6 @@ script:
 
   - ng test
 
+  - npm run coveralls
+
   
