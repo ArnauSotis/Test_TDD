@@ -28,7 +28,6 @@ before_install:
 before_script:
 
   - npm install -g @angular/cli
-No captured browser, open http://localhost:9876/
 
 
 
